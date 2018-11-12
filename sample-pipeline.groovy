@@ -1,3 +1,4 @@
+@Library('slackcoderepo') _
 pipeline {
     agent { label 'master' }
     stages {
